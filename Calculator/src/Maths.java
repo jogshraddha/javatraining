@@ -21,6 +21,14 @@ public class Maths {
 		System.out.println("Multiplication is "+ result);
 	}
 	
+	public void divide(int a, int b) {
+		int result = 0;
+		if( b != 0) {
+			result = a / b;
+		}
+		System.out.println("division is "+ result);
+	}
+	
 	public void square(int a) {
 		int result = a * a;
 		System.out.println("Square of "+ a +" is "+ result);
